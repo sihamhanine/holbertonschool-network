@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Script that displays listening ports.
 
-ss -tuln --processes
+netstat -tuln -p 2>/dev/null | grep -v "Permission denied"
