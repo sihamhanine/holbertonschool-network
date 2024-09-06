@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # Script that displays all active IPv4 IPs on the machine.
 
 # Utilisation de la commande ip pour lister les adresses IPv4
