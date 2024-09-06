@@ -3,4 +3,3 @@
 
 hostname -I | cut -d' ' -f1 ; hostname -i
 
-
