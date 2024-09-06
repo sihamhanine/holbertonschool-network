@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Script that displays all active IPv4 IPs on the machine.
+# Script that displays all active IPv4 IPs on the machine
 
-# Utilisation de la commande ip pour lister les adresses IPv4
+ifconfig | grep -w "inet" | grep -v "127.0.0.1" | awk '{print $2}'
 
-ip -4 addr show | grep -oP '(?<=inet\s)\d+(\.\d+){3}' 
+ 
 
