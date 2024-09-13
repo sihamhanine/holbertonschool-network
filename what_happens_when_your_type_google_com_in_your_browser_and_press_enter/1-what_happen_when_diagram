@@ -1,0 +1,13 @@
+Task 1: Diagram
+
+https://www.linkedin.com/pulse/task-0-blog-post-siham-elani-8rkpe/
+
+Create a diagram that visually represents the process of what happens when the URL is typed in the browser. Tools like Gliffy, Lucidchart, or even draw.io can help you create this.
+
+Start with the browser sending a DNS query.
+Show the connection established via TCP/IP.
+Display the request passing through a firewall.
+Indicate that the request hits a load balancer before being directed to the server.
+Highlight HTTPS encryption in the communication.
+Show the web server responding and the application server interacting with the database.
+
