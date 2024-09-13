@@ -1,0 +1,29 @@
+Task 0: Blog Post
+
+https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit
+
+Write a detailed blog post covering the following steps that happen when you type "https://www.google.com" in a browser:
+
+DNS Request:
+When you enter the URL, your browser sends a DNS request to resolve the domain name into an IP address. Explain how DNS servers work, and how the domain is mapped to the IP address of the server.
+
+TCP/IP:
+Once the IP address is found, the browser establishes a connection using the Transmission Control Protocol (TCP) over the Internet Protocol (IP). Mention the role of IP in finding the destination and TCP in establishing the connection.
+
+Firewall:
+Discuss the role of firewalls in filtering traffic and ensuring only valid and allowed traffic can pass through to the server.
+
+HTTPS/SSL:
+Explain how the Secure Sockets Layer (SSL) works to encrypt the connection, providing data security. Include the HTTPS handshake process (certificate exchange, key generation).
+
+Load Balancer:
+A load balancer distributes the incoming requests across multiple servers to handle traffic efficiently. Briefly describe how it works.
+
+Web Server:
+The web server (e.g., Nginx) receives the request and passes it on to the application server or sends a static response.
+
+Application Server:
+The application server processes dynamic requests, possibly running scripts and code.
+
+Database:
+If needed, the application server queries the database for the required information, which it then uses to generate the web page.
